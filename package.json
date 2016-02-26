@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-calc",
   "version": "0.0.0",
-  "description": "Enable CSS calc function in JavaScript",
+  "description": "Enable usage of CSS calc in JavaScript",
   "license": "MIT",
   "author": "Cameron Hunter",
   "main": "build/index.js",
