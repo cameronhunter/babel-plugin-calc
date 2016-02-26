@@ -8,8 +8,12 @@
   "jsnext:main": "src/index.js",
   "scripts": {
     "build": "rollup -c",
+    "lint": "eslint src test",
     "pretest": "npm run build",
-    "test": "ava"
+    "test": "ava",
+    "posttest": "npm run lint",
+    "preversion": "npm test",
+    "postversion": "git push --tags && git push"
   },
   "files": [
     "build",

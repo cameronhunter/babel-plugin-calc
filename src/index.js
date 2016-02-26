@@ -2,7 +2,7 @@ const StringLiteral = 'StringLiteral';
 const NumericLiteral = 'NumericLiteral';
 const BinaryExpression = 'BinaryExpression';
 
-export default babel => ({
+export default () => ({
   visitor: {
     CallExpression(path) {
       if (path.get('callee').isIdentifier({ name: 'calc' }) && path.node.arguments.length == 1) {
