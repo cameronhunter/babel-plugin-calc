@@ -1,7 +1,7 @@
 {
-  "name": "calc",
-  "version": "1.0.0",
-  "description": "",
+  "name": "babel-plugin-calc",
+  "version": "0.0.0",
+  "description": "Enable CSS calc function in JavaScript",
   "license": "MIT",
   "author": "Cameron Hunter",
   "main": "build/index.js",
@@ -19,11 +19,9 @@
     "build",
     "src"
   ],
-  "dependencies": {
-    "babel-core": "^6.4.0"
-  },
   "devDependencies": {
     "ava": "^0.12.0",
+    "babel-core": "^6.4.0",
     "babel-preset-es2015-rollup": "^1.1.1",
     "rollup": "^0.25.4",
     "rollup-plugin-babel": "^2.4.0"
