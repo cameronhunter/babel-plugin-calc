@@ -28,6 +28,6 @@
     "babel-register": "^6.16.3",
     "eslint": "^3.7.0",
     "rollup": "^0.36.1",
-    "rollup-plugin-babel": "^2.6.1"
+    "rollup-plugin-babel": "^2.7.0"
   }
 }
